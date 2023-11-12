@@ -59,6 +59,7 @@ body {
   font-size: 18px; 
   justify-self: end;
   align-self: center;
+  margin-bottom: 4px;
 }
 
 .text_decoration_line{
