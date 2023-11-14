@@ -76,6 +76,7 @@ body {
 }
 
 .cover{
+  display: grid;
   position: relative;
   height: 757px;
   background-image: url(../images/cover.jpg);
@@ -133,7 +134,10 @@ body {
   position: relative;
   display: flex;
   justify-content: end;
+  align-self:end;
   align-items: center;
+  padding-right: 50px;
+  padding-bottom: 50px;
   gap: 110px;
   font-size: 22px;
 }
