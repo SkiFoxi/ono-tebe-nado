@@ -1,9 +1,9 @@
 body {
-  font-weight: 400;  
-}
-
-.content-section {
-  max-width: 1440px;
+  font-weight: 400; 
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 1440px; 
   box-sizing: border-box;
   margin: auto; 
 }
@@ -54,7 +54,7 @@ body {
   width: 100%;
 }
 
-.address {   /*нужно исправиить*/
+.address {
   font-style: normal;
   font-size: 18px; 
   justify-self: end;
@@ -69,6 +69,7 @@ body {
   margin-bottom: 3px;
 }
 .main{
+  flex-grow: 1;
   max-width: 1440px;
   min-height: 100px;
   box-sizing: border-box;
@@ -289,4 +290,45 @@ body {
   flex-direction:column;
   gap: 25px;
   font-size: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content:space-between;
+  padding: 180px 50px 90px 50px;
+}
+
+.footer__menu-list-item{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__menu-link{
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid ;
+  margin-bottom: 3px;
+}
+
+.footer__menu-link_active{
+  border-bottom: none;
+}
+
+.footer__social-list{
+  display: flex;
+  gap: 48px;
+}
+
+.footer__social-list-item{
+  list-style: none;
+}
+
+.footer__social-link{
+
+}
+
+.footer__social-icon{
+  max-height: 48px;
 }
