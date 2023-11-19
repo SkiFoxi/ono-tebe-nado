@@ -343,13 +343,11 @@ body {
 .footer__social-list {
   display: flex;
   gap: 48px;
+  max-width: 240px;
 }
 
 .footer__social-list-item {
-  position: relative;
   list-style: none;
-  max-height: 48px;
-  max-width: 48px;
 }
 
 .footer__social-icon {
