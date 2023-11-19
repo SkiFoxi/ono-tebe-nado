@@ -53,8 +53,8 @@ body {
 }
 
 .header__logo {
-  width: 148px;
-  height: 105px;
+  max-width: 148px;
+  max-height: 105px;
 
 }
 
@@ -120,6 +120,7 @@ body {
   font-size: 100px;
   padding: 165px 50px 0px 50px;
   letter-spacing: 30px;
+  line-height: 100%
 }
 
 .aligned-text {
@@ -129,12 +130,10 @@ body {
 
 .aligned-text_center {
   align-self: center;
-  line-height: 100%
 }
 
 .aligned-text_right {
   align-self: end;
-  line-height: 100%
 }
 
 .letter-spacing-extended {
